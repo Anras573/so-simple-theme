@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Site Title
+title: Anbora Blog
 locale: en_US
 description: Describe your website here.
 logo: site-logo.png
@@ -36,13 +36,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Anders Bo Rasmussen
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: anras573@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: Anras573
   facebook: #username
-  github: #username
+  github: Anras573
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
