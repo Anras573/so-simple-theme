@@ -5,7 +5,7 @@ locale: en_US
 description: Describe your website here.
 logo: site-logo.png
 search: true
-url: https://anbora.dk/blog
+url: http://www.anbora.dk/blog
 
 # Jekyll configuration
 
