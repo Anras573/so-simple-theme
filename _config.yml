@@ -6,6 +6,7 @@ description: Describe your website here.
 logo: site-logo.png
 search: true
 url: http://www.anbora.dk/blog
+paginate: 5
 
 # Jekyll configuration
 
@@ -19,6 +20,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
 
 kramdown:
   input: GFM
@@ -37,7 +39,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Anders Bo Rasmussen
-  avatar: bio-photo.jpg
+  avatar: AndersB_bottom.png
   email: anras573@gmail.com
   disqus-shortname:
   twitter: Anras573
