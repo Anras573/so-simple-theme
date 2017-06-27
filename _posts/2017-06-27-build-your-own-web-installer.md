@@ -65,7 +65,7 @@ private void Window_ContentRendered(Object sender, EventArgs e)
 
 If we run our program now our application will look like this:
 <figure>
-	<a href="/images/build-your-own-installer/001.PNG"><img src="/images/build-your-own-installer/001.PNG" alt="image"></a>
+	<a href="{{ site.url }}/images/build-your-own-installer/001.PNG"><img src="{{ site.url }}/images/build-your-own-installer/001.PNG" alt="image"></a>
 </figure>
 
 What we need to do now, is to download the big installer and continuing updating our progress bar and finally start the installer when it has finished downloaded.
@@ -115,13 +115,13 @@ private void Client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs
 
 This is our web installer now:
 <figure>
-	<a href="/images/build-your-own-installer/002.PNG"><img src="/images/build-your-own-installer/002.PNG" alt="image"></a>
+	<a href="{{ site.url }}/images/build-your-own-installer/002.PNG"><img src="{{ site.url }}/images/build-your-own-installer/002.PNG" alt="image"></a>
 </figure>
 
 As a final touch we'll add an icon to our web installer to make it look more professional.  
 I use this icon, that I found online, in this example.
 <figure>
-	<a href="/images/build-your-own-installer/icon.png"><img src="/images/build-your-own-installer/icon.png" alt="image"></a>
+	<a href="{{ site.url }}/images/build-your-own-installer/icon.png"><img src="{{ site.url }}/images/build-your-own-installer/icon.png" alt="image"></a>
 	<figcaption><a href="https://www.iconfinder.com/icons/379337/computer_download_icon#size=128" title="Download icon, made by Webalys, found on iconfinder.com">Download icon, made by Webalys, found on iconfinder.com</a>.</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ In order for us to insert this icon, we'll create a folder called icon and paste
 
 You should now be all set, and if all went well, our installer will now look like this:
 <figure>
-	<a href="/images/build-your-own-installer/003.PNG"><img src="/images/build-your-own-installer/003.PNG" alt="image"></a>
+	<a href="{{ site.url }}/images/build-your-own-installer/003.PNG"><img src="{{ site.url }}/images/build-your-own-installer/003.PNG" alt="image"></a>
 </figure>
 
 Of course as this is an tutorial I didn't do a lot of exception handling, but that is something that should be implemented in a real web installer.  
