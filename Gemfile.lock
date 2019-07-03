@@ -18,7 +18,7 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.7.0)
+    jekyll-feed (0.7.2)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
